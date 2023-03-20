@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+#generate-cookie {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-family: arial;
+    font-size: 30px;
+}
+
+#inputs {
+    height: 400px;
+    width: 95%;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+/* Set the input border to only show the bottom border */
+#user {
+    width: 700px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  /* Style the input placeholder */
+  #user::placeholder {
+    color: #999;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Move the placeholder up when the input is focused */
+  #user:focus::placeholder {
+    font-size: 12px;
+    bottom: 26px;
+    left: 0;
+    color: #666;
+  }
+
+
+  #pass {
+    width: 700px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  /* Style the input placeholder */
+  #pass::placeholder {
+    color: #999;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Move the placeholder up when the input is focused */
+  #pass:focus::placeholder {
+    font-size: 12px;
+    bottom: 26px;
+    left: 0;
+    color: #666;
+  }
+
+
+  #cookie {
+    margin-top: 20px;
+    width: 700px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  /* Style the input placeholder */
+ 
+  
+  /* Move the placeholder up when the input is focused */
+
+
+  #get-cookie {
+    margin-top: 10px;
+    height: 50px;
+    background-color: #38d39f;
+    font-size: 20px;
+    color: white;
+    border: 2px solid #38d39f;
+    border-radius: 5px;
+  }
+
+  #get-cookie:hover {
+    cursor: pointer;
+    background-color: #31c090;
+    border: 2px solid #31c090;
+    transition: 0.3s;
+  }
+
+  #get-cookie:active {
+    opacity: 0.70;
+    transition: 0s;
+  }
+
+  #cook1 {
+    font-family: arial;
+    text-decoration: none;
+  }
+
+
+
+  @media(max-width:800px) {
+    #inputs {
+        height: 400px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: end;
+        
+    }
+    #user {
+        width: 500px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        font-size: 15px;
+      }
+
+      #pass {
+        width: 500px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        font-size: 15px;
+      }
+
+      #cookie {
+        margin-top: 20px;
+        width: 500px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        font-size: 15px;
+      }
+  }
+
+
+  @media(max-width:560px) {
+    #inputs {
+        height: 400px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: end;
+        
+    }
+    #user {
+        width: 400px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        font-size: 15px;
+      }
+
+      #pass {
+        width: 400px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        font-size: 15px;
+      }
+
+      #cookie {
+        margin-top: 20px;
+        width: 400px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        font-size: 15px;
+      }
+  }
+
+
+  @media(max-width:460px) {
+    #inputs {
+        height: 400px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: end;
+        
+    }
+    #user {
+        width: 300px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        font-size: 15px;
+      }
+
+      #pass {
+        width: 300px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        font-size: 15px;
+      }
+
+      #cookie {
+        margin-top: 20px;
+        width: 300px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        font-size: 15px;
+      }
+  }
+
+  @media(max-width:400px) {
+    #cook1 {
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+ 
+  
+  
